@@ -4,7 +4,7 @@ import Routes from '../Routes/Routes';
 import { useState } from "react";
 import './App.css';
 import Header from '../Header/Header';
-import Panier from '../Panier/Panier';
+// import Panier from '../Pages/Panier/Panier';
 
 //imports de donnees
 import Garnitures from "../Donnees/Garnitures.json";
@@ -40,9 +40,9 @@ const App = () => {
                 isAuthenticated={isAuthenticated}
                 />
                 
-                <Panier
+                {/* <Panier
                 cart={cart}
-                />
+                /> */}
 
                 <main>
                     {/* <PizzaMaker ListeGarnitures={Garnitures} PresetsPizza={pizzaList} setPizzaListFN={setPizzaList}/>
