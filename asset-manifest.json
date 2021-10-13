@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/pizza-maker/static/css/main.9eb3bc96.chunk.css",
-    "main.js": "/pizza-maker/static/js/main.b378b2fe.chunk.js",
-    "main.js.map": "/pizza-maker/static/js/main.b378b2fe.chunk.js.map",
+    "main.js": "/pizza-maker/static/js/main.517b829c.chunk.js",
+    "main.js.map": "/pizza-maker/static/js/main.517b829c.chunk.js.map",
     "runtime-main.js": "/pizza-maker/static/js/runtime-main.2f722894.js",
     "runtime-main.js.map": "/pizza-maker/static/js/runtime-main.2f722894.js.map",
     "static/js/2.501c9ade.chunk.js": "/pizza-maker/static/js/2.501c9ade.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.2f722894.js",
     "static/js/2.501c9ade.chunk.js",
     "static/css/main.9eb3bc96.chunk.css",
-    "static/js/main.b378b2fe.chunk.js"
+    "static/js/main.517b829c.chunk.js"
   ]
 }
