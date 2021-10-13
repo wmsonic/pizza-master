@@ -1,0 +1,30 @@
+[
+    {
+        "nom" : "Peperoni fromage",
+        "garnitures" : [
+            {"nom" : "sauce"},
+            {"nom" : "fromage"},
+            {"nom" : "peperoni"}],
+        "prix" : 11.75
+    },
+    {
+        "nom" : "All-dressed",
+        "garnitures" : [
+            {"nom" : "sauce"},
+            {"nom" : "fromage"},
+            {"nom" : "peperoni"},
+            {"nom" : "poivrons"},
+            {"nom" : "champignons"},
+            {"nom" : "olives"}],
+        "prix": 13.50
+    },
+    {
+        "nom" : "Hawaïenne",
+        "garnitures" : [
+            {"nom" : "sauce"},
+            {"nom" : "fromage"},
+            {"nom" : "jambon"},
+            {"nom" : "ananas"}],
+        "prix": 12.05
+    }
+]

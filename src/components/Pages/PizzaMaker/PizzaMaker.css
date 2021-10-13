@@ -1,0 +1,39 @@
+.pizzaMaker{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pizzaMaker h2{
+    width: 100%;
+}
+
+.pizzaMaker .preview{
+    width: 35%;
+    margin-left: 5%;
+}
+
+.formulaire{
+    width: 50%;
+    margin-left: 10%;
+}
+
+.ChoixGarnitures{
+    /* width: 50%; */
+    display: flex;
+    flex-wrap: wrap;
+    gap : 1em;
+    margin: 1em 0;
+}
+
+.ChoixGarnitures .choix{
+    min-width: 20%;
+}
+
+.formBtns{
+    display: block;
+    margin-top: 1em;
+}
+
+.formBtns a:last-of-type {
+    margin-left: 1em;
+}

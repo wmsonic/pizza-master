@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+body{
+    margin: 0;
+}
+
+:root {
+    --darkBlue : rgb(39, 48, 67);
+    --lightBlue : rgb(145, 151, 174);
+    --whiteish : rgb(239, 246, 238);
+    --lightRed : rgb(240, 45, 58);
+    --darkRed : rgb(221, 4, 38);
+    --activeRed : rgb(241, 80, 104);
+    --disabledBtn : rgb(207, 209, 218);
+    --disabledBtnText : rgb(93, 93, 93);
+}
+
+.App *{
+    font-family: 'Quicksand',sans-serif;
+    text-decoration: none;
+}
+
+main{
+    border-top: 2px solid #eee;
+}
+
+.myButton, input[type="button"]{
+    padding: .7em 1em;
+    border-radius: 1px;
+    border: 1px solid var(--darkRed);
+    background-color: var(--lightRed);
+    color: white;
+    cursor: pointer;
+    text-shadow:0px 1px 0px var(--darkRed);
+    font-weight: bold;
+    font-size: .8em;
+    transition: ease-in-out .2s;
+}
+
+.myButton:hover, input[type="button"]:hover{
+    background-color: var(--darkRed);
+}
+
+.myButton:active{
+    background-color: var(--activeRed);
+    box-shadow : 0px 0px 1px 3px rgba(221,4,38,0.28);
+}
+
+.myButton:disabled, input[type="button"]:disabled{
+    cursor: default;
+    background-color: var(--disabledBtn);
+    color: var(--disabledBtnText);
+    text-shadow: none;
+    border: 1px solid var(--disabledBtn);
+}
+
+input[type="text"]{
+    padding: .5rem;
+    border: 1px solid var(--lightBlue);
+    border-radius: 1px;
+    transition: ease-in-out .2s;
+}
+
+input[type="text"]:focus{
+    box-shadow : 0px 0px 1px 3px rgba(221,4,38,0.28);
+}
+
+input[type="text"]:focus-visible{
+    outline: none;
+}
+
+.ChoixGarnitures label{
+    text-transform: capitalize;
+}
+
+.garnituresPreset .ulTitle{
+    margin-left: .2em;
+    margin-top: 1em;
+}
+.garnituresPreset ul{
+    margin-top: .5em;
+}
+
+
+.section-head{
+    margin-bottom: 2em;
+}
+
+.section-head *{
+    display: inline;
+}
+
+.section-head h2{
+    margin-right: 1em;
+}

@@ -1,0 +1,18 @@
+#AppHeader{
+    background-color: rgb(239, 246, 238);
+    padding: 1em 1em;
+    display: flex;
+}
+
+h1{
+    display: flex;
+    flex-grow: 2;
+    margin : 0;
+}
+
+#mainNav{
+    display: flex;
+    gap: 1em;
+    justify-content: space-between;
+    right: 0;
+}

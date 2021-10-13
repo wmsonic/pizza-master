@@ -1,0 +1,93 @@
+.presets{
+    margin-top: 2em;
+}
+.preset{
+    vertical-align: top;
+    display: inline-block;
+    position: relative;
+    min-width: 175px;
+    width: 15%;
+    margin: 0 .5em 1em;
+    border: 2px solid #eee;
+}
+.preset .nomPizza{
+    text-align: center;
+    margin: .5em 0;
+}
+.preset .pate{
+    position: relative;
+    top: 0;
+    width: 90%;
+    z-index: 0;
+}
+.preset img{
+    position: absolute;
+    left:5%;
+    z-index: 1;
+    width: 90%;
+}
+.preset .basilic{
+    z-index: 0;
+}
+.preset .sauce{
+    z-index: 0;
+}
+.preset .fromage{
+    z-index: 0;
+}
+.preset li{
+    text-transform: capitalize;
+}
+
+.preset .addToCart{
+    display: inline-block;
+    /* float: right; */
+    /* width: 1em;
+    height: 1em; */
+}
+
+.pizzas-container{
+    display: flex;
+}
+
+.pizzaInfo{
+    min-width: 35%;
+    width: 35vw;
+    border-left: 2px solid #eee;
+    padding-left: 2em;
+    padding-top: 1em;
+    height: 85vh;
+}
+
+.pizzaInfo .garnituresPreset{
+    margin-top: .5em;
+    margin-left: 1.2em;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pizzaInfo .garnituresPreset li{
+    width: 15em;
+}
+
+.price{
+    margin: .5em 0 .2em;
+}
+
+.hiddenInfo{
+    display: none;
+}
+
+.pizzaInfo h2{
+    margin-left: .7em;
+}
+
+.pizzaInfo .preview{
+    width: 60%;
+    max-width: 50vh;
+}
+
+.pizzaInfo .preview .pate{
+    position: relative;
+}

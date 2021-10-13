@@ -1,0 +1,45 @@
+[{
+    "nom": "sauce",
+    "state": false,
+    "prix": 0.10
+}, {
+    "nom": "fromage",
+    "state": false,
+    "prix": 0.10
+}, {
+    "nom": "peperoni",
+    "state": false,
+    "prix": 1.75
+}, {
+    "nom": "bacon",
+    "state": false,
+    "prix": 1.50
+}, {
+    "nom": "jambon",
+    "state": false,
+    "prix": 1.50
+}, {
+    "nom": "poivrons",
+    "state": false,
+    "prix": 0.75
+}, {
+    "nom": "champignons",
+    "state": false,
+    "prix": 0.65
+}, {
+    "nom": "olives",
+    "state": false,
+    "prix": 0.35
+}, {
+    "nom": "ananas",
+    "state": false,
+    "prix": 0.55
+}, {
+    "nom": "basilic",
+    "state": false,
+    "prix": 0.25
+}, {
+    "nom": "piments",
+    "state": false,
+    "prix": 0.55
+}]

@@ -1,0 +1,27 @@
+.preview{
+    display: flex;
+    position: relative;
+    width: 35%;
+}
+.preview .pate{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+.preview img{
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 1;
+    width: 100%;
+}
+.preview .basilic{
+    z-index: 0;
+}
+.preview .sauce{
+    z-index: 0;
+}
+.preview .fromage{
+    z-index: 0;
+}
