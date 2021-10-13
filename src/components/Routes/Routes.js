@@ -10,7 +10,7 @@ const Routes = ({ Garnitures, PizzasList , isAuthenticated, setAuthenticatedFn:s
     if (isAuthenticated) {
         return (
             <Switch>
-                <Route exact path="/pizza-maker/pizza/creer">
+                <Route exact path="/pizza/creer">
                     <PizzaMaker
                         ListeGarnitures={Garnitures}
                         PresetsPizza={PizzasList}
@@ -18,26 +18,26 @@ const Routes = ({ Garnitures, PizzasList , isAuthenticated, setAuthenticatedFn:s
                         prixBase={prixBase}
                     />
                 </Route>
-                <Route path="/pizza-maker/pizza">
+                <Route path="/pizza">
                     <Presets
                         ListeGarnitures={Garnitures}
                         PresetsPizza={PizzasList}
                         AddToCart={AddToCart}
                     />
                 </Route>
-                <Redirect to="/pizza-maker/pizza" />
+                <Redirect to="/pizza" />
             </Switch>
 
         )
     }
     return (
         <Switch>
-            <Route exact path="/pizza-maker/login">
+            <Route exact path="/login">
                 <Login 
                 setAuthenticatedFn={setAuthenticated} 
                 defaultUsername={""}/>
             </Route>
-            <Redirect to="/pizza-maker/login" />
+            <Redirect to="/login" />
         </Switch>
 
     )

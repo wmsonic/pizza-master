@@ -9,13 +9,13 @@ const PizzaPreview = ({ mesGarnitures, ...props }) => {
                 :
                 null
             }
-            <img className="pate" src="/pizza-maker/img/pate.png" alt="" />
+            <img className="pate" src="/pizza-master/img/pate.png" alt="" />
             {mesGarnitures.map((garniture) => (
                 (!isPreset ?
                     <img
                         key={garniture.nom + "preview"}
                         className={garniture.nom}
-                        src={"/pizza-maker/img/" + garniture.nom + ".png"}
+                        src={"/pizza-master/img/" + garniture.nom + ".png"}
                         alt=""
                         style={{ display: + garniture.state || isInfo ? 'inherit' : 'none' }}
                     />
@@ -23,7 +23,7 @@ const PizzaPreview = ({ mesGarnitures, ...props }) => {
                     <img
                         key={garniture.nom + "preview"}
                         className={garniture.nom}
-                        src={"/pizza-maker/img/" + garniture.nom + ".png"}
+                        src={"/pizza-master/img/" + garniture.nom + ".png"}
                         alt=""
                     />
                 )
