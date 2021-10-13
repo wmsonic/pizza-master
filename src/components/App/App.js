@@ -33,7 +33,7 @@ const App = () => {
 	};
 
     return(
-        <BrowserRouter>
+        <BrowserRouter basename="/pizza-maker">
             <div className="App">
                 
                 <Header
